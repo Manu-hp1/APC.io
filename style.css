@@ -131,14 +131,67 @@ body {
     border-radius: 8px;
 }
 
-/* LIST */
+/* DLL VISUAL */
 
-.list {
-    list-style: none;
+.dll-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 25px 0;
 }
 
-.list li {
-    margin-bottom: 8px;
+.node {
+    background: #4da3ff;
+    color: #0e1621;
+    padding: 14px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.arrow {
+    font-size: 1.4rem;
+    color: #4da3ff;
+}
+
+/* MATH BOX */
+
+.math-box {
+    background: #1f2a37;
+    padding: 25px 35px;
+    border-radius: 10px;
+    margin: 30px auto;
+    width: fit-content;
+}
+
+.math-box pre {
+    font-family: monospace;
+    font-size: 1.1rem;
+    color: #e6edf3;
+}
+
+/* FLOW */
+
+.flow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    margin-top: 20px;
+}
+
+.flow-step {
+    background: #2d3a4a;
+    padding: 12px 20px;
+    border-radius: 8px;
+    min-width: 260px;
+    text-align: center;
+}
+
+.flow-arrow {
+    font-size: 1.3rem;
+    color: #4da3ff;
 }
 
 /* TECH */
@@ -214,71 +267,4 @@ body {
     .section {
         padding: 40px 20px;
     }
-}
-/* DLL VISUAL */
-
-.dll-visual {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 25px 0;
-}
-
-.node {
-    background: #4da3ff;
-    color: #0e1621;
-    padding: 14px 20px;
-    border-radius: 8px;
-    font-weight: bold;
-    min-width: 50px;
-    text-align: center;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-}
-
-.arrow {
-    font-size: 1.4rem;
-    color: #4da3ff;
-}
-
-/* MATH BOX */
-
-.math-box {
-    background: #1f2a37;
-    padding: 25px 35px;
-    border-radius: 10px;
-    margin: 30px auto;
-    width: fit-content;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-}
-
-.math-box pre {
-    font-family: monospace;
-    font-size: 1.1rem;
-    color: #e6edf3;
-}
-
-/* FLOW */
-
-.flow {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 14px;
-    margin-top: 20px;
-}
-
-.flow-step {
-    background: #2d3a4a;
-    padding: 12px 20px;
-    border-radius: 8px;
-    min-width: 260px;
-    text-align: center;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.25);
-}
-
-.flow-arrow {
-    font-size: 1.3rem;
-    color: #4da3ff;
 }
